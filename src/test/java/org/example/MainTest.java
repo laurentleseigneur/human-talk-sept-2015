@@ -24,7 +24,7 @@ public class MainTest {
     @Test
     public void should_also_do_the_job() throws Exception {
         //given
-        String[] args = {"Human Talks"};
+        String[] args = {"Human", "Talks"};
 
         //when
         main(args);
