@@ -11,9 +11,9 @@
 
     <style>
         .h-center {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         }
     </style>
 </head>
@@ -31,7 +31,7 @@
 <section>
     <h1>//given </h1>
 
-    <ol class="steps">
+    <ol>
         <li>tu pratiques le TDD, ou ses variantes en Java: ce talk est pour toi!</li>
         <li> mais tester <em>bigLegacy.jar</em> avec plein de System.out, d'exceptions exotiques, voir
             de
@@ -44,15 +44,15 @@
     <h1>//when</h1>
 
     <p>
-    <ol>
+    <ul>
         <li>j'arrive à faire une live démo sans "effet-démo"</li>
-    </ol>
-    <img  class="h-center" width="25%" src="keaton.gif">
+    </ul>
+    <img class="h-center" width="25%" src="keaton.gif">
     </p>
 </section>
 <section>
     <h1>//then</h1>
-    <ol class="steps">
+    <ol>
         <li>bénéfice attendu: tu as appris quelques tips utilisables dès demain</li>
         <li>code & slides dispo sur github, même en cas de "effet-démo"</li>
         <li>label "GIF animés inside" garanti dans les slides</li>
@@ -60,6 +60,9 @@
 </section>
 <section>
     <h1>Tester</h1>
+    <ul>
+        <li>le dentier ou la brosse à dent ?</li>
+    </ul>
     <img class="h-center" width="40%" src="testing.gif"/>
 </section>
 |
@@ -73,18 +76,19 @@
 
         </li>
         <li>
-            <a href="http://stefanbirkner.github.io/system-rules/index.html">System Rules by Stephan Birkner & Marc Philipp</a>
+            <a href="http://stefanbirkner.github.io/system-rules/index.html">System Rules by Stephan Birkner & Marc
+                Philipp</a>
         </li>
 
     </ul>
     <img class="h-center" src="doc.gif">
     </p>
 </section>
-              <section>
-                  <h1>Let's go!</h1>
-                  <img class="h-center" width="40%" src="chaplin.gif">
+<section>
+    <h1>Let's go!</h1>
+    <img class="h-center" width="40%" src="chaplin.gif">
 
-              </section>
+</section>
 
 <script src="bower_components/jquery/jquery.min.js"></script>
 <script src="bower_components/keymaster/keymaster.js"></script>
@@ -93,6 +97,11 @@
 <script src="bower_components/ruban/js/ruban.min.js"></script>
 <script>
     new Ruban({ratio:4/3});
+
+
+
+
+
 
 
 
