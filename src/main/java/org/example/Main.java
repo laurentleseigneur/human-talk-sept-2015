@@ -4,6 +4,7 @@ package org.example;
  * @author laurentleseigneur
  */
 public class Main {
+
     public static void main(String[] args) throws Exception {
         if (requiredParameterIsMissing(args)) {
             displayUsageAndExit();
